@@ -1,9 +1,9 @@
 #!/bin/bash
 disks()
 {
-
-	lsblk > disk.txt
-	bat disk.txt
+	
+	echo " $(date)"
+	lsblk | bat 
 
 
 }
@@ -11,9 +11,16 @@ disks()
 used()
 {
 
-
-	df -h > disk.txt
-	bat disk.txt
+	
+	
+	
+	
+	
+	
+	
+	echo $(date)
+	df -h | bat
+	
 
 }
 

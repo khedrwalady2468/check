@@ -3,8 +3,7 @@
 cpu_info()
 {
 
-	lscpu > cpu.txt
-	 bat -r 1:19  cpu.txt
+	lscpu | bat
 
 
 }
