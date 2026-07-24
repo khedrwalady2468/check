@@ -1,9 +1,0 @@
-NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
-nvme0n1     259:0    0 476.9G  0 disk 
-├─nvme0n1p1 259:1    0   600M  0 part /boot/efi
-├─nvme0n1p3 259:2    0 400.5G  0 part /run/media/devilman/54d4caae-675a-4e54-b013-0530a26d10f4
-├─nvme0n1p4 259:3    0    69G  0 part /var/log
-│                                     /var/cache
-│                                     /home
-│                                     /
-└─nvme0n1p5 259:4    0   5.9G  0 part [SWAP]
